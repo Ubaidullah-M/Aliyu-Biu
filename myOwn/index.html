@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="../dev_images/logo1.png" alt="LOGO" class="logo">
+        <nav id="nav">
+            <i class="fa-solid fa-close close"></i>
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" id="register">Register</a>
+        </nav>
+        <i class="fa-solid fa-bars menu"></i>
+    </header>
+    <main id="main">
+
+        <form action="#" id="form">
+            <i class="fa-solid fa-close form-close"></i>
+            <h2>Active client list form</h2>
+            <p>Fill below form to register your self into the list of our client </p>
+
+            <div>
+                <label for="f-name">First name:</label>
+                <input type="text" id="f-name">
+            </div>
+            <div>
+                <label for="l-name">Last name:</label>
+                <input type="text" id="l-name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+            </div>
+            <button class="btn" id="register2">Register</button>
+        </form>
+
+        <h2>This is the list of our clients</h2>
+        <div id="lists">
+            <div class="item">
+                <div class="f-name">
+                    <span class="first-name">First Name</span>
+                </div>
+                <div class="L-name">
+                    <span class="last-name">Last Name</span>
+                </div>
+                <div class="p-email">
+                    <span class="email">Email.</span>
+                </div>
+                <div class="btns">
+                    <a href="#" class="edit"><i class="fa-solid fa-pen"></i></a>
+                    <a href="#" class="del"><i class="fa-solid fa-trash"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="about">
+            <h2>About us</h2>
+            <p>below are the faces of our giant authority</p>
+        </div>
+        <div class="staffs" id="staffs">
+            <div class="indiv">
+                <div class="image">
+                    <img src="../dev_images/director.jpg" alt="image">
+                </div>
+                <div class="desc">
+                    <h3 class="name">Muhammad Umar Isa</h3>
+                    <p class="post">Director</p>
+                </div>
+            </div>
+            <div class="indiv">
+                <div class="image">
+                    <img src="../dev_images/ct.jpg" alt="image">
+                </div>
+                <div class="desc">
+                    <h3 class="name">Ayuba Dauda</h3>
+                    <p class="post">CTO</p>
+                </div>
+            </div>
+            <div class="indiv">
+                <div class="image">
+                    <img src="../dev_images/dev0p.jpg" alt="image">
+                </div>
+                <div class="desc">
+                    <h3 class="name">Barakat Usman</h3>
+                    <p class="post">Devops Engineer</p>
+                </div>
+            </div>
+            <div class="indiv">
+                <div class="image">
+                    <img src="../dev_images/snr.jpg" alt="image">
+                </div>
+                <div class="desc">
+                    <h3 class="name">Hyedima Waha</h3>
+                    <p class="post">Senior Software Engineer</p>
+                </div>
+            </div>
+            <div class="indiv">
+                <div class="image">
+                    <img src="../dev_images/josh.jpg" alt="image">
+                </div>
+                <div class="desc">
+                    <h3 class="name">Joshua Alex</h3>
+                    <p class="post">Senior Software Engineer</p>
+                </div>
+            </div>
+            <div class="indiv">
+                <div class="image">
+                    <img src="../dev_images/ltl.jpg" alt="image">
+                </div>
+                <div class="desc">
+                    <h3 class="name">Hindu Bukar Biu</h3>
+                    <p class="post">Legal T.L</p>
+                </div>
+            </div>
+        </div>
+        <div class="shortcut">
+            <img src="../dev_images/logo1.png" alt="" class="logo" id="logo">
+            <div class="socials" id="contact">
+                <a href="#" class="phone"><i class="fa-solid fa-phone"></i>+234-08010010001001</a>
+               <div class="handles">
+                <a href="#" class="phone"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+               </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
